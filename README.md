@@ -31,3 +31,5 @@ n/a
 ### Github Link: https://github.com/JoshysHERE/week5challenge/
 
 ### Github Pages: https://joshyshere.github.io/week5challenge/
+
+### Jquery & Moment Links: https://cdnjs.com/libraries/moment.js/
