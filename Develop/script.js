@@ -1,16 +1,15 @@
+var todayDate = moment().format("MMMM Do YYYY, h:mm:ss a"); 
+$("#currentDay").html(todayDate);
+
 $(document).ready(function () {
+    // saveBtn click listener 
+    $(".saveBtn").on("click", function () {
+       
+        var text = $(this).siblings(".description").val();
+        var time = $(this).parent().attr("id");
 
-  $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a")); 
- 
-  $(".saveBtn").on("click", function () {
-    
-   console.log(this);
-
-    var text = $(this).siblings('description').val();
-    var time = $(this).parent().attr('id');
-
-    localStorage.setItem(time, text);
-    
+       
+        localStorage.setItem(time, text);
   })
 
   function timeKeeper() {
@@ -49,6 +48,7 @@ $('#hour14 .description').val(localStorage.getItem('hour14'));
 $('#hour15 .description').val(localStorage.getItem('hour15'));
 $('#hour16 .description').val(localStorage.getItem('hour16'));
 $('#hour17 .description').val(localStorage.getItem('hour17'));
+
 
   timeKeeper();
 })
