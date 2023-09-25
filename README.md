@@ -28,5 +28,6 @@ n/a
 ## Tests
 ### My Portfolio Link: https://joshyshere.github.io/joshsportfolio/
 
-### Github Link: https://github.com/JoshysHERE/week5challenge
+### Github Link: https://github.com/JoshysHERE/week5challenge/
+
 ### Github Pages: https://joshyshere.github.io/week5challenge/
