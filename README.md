@@ -11,7 +11,7 @@ No install needed
 
 ## Usage
 This application will serve as a work day scheduler
-
+![week5pic](https://github.com/JoshysHERE/week5challenge/assets/141682993/45952147-7026-40e1-b7b0-2ca07b7b6811)
 
 ## License
 n/a
