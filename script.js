@@ -1,4 +1,4 @@
-var todayDate = moment().format("MMMM Do YYYY, h:mm:ss a"); 
+var todayDate = moment().format("MMMM Do YYYY, h:mm:ss a"); //date and time
 $("#currentDay").html(todayDate);
 
 $(document).ready(function () {
@@ -21,19 +21,20 @@ var blockTime = parseInt($(this).attr('id').split('hour')[1]);
 console.log(blockTime, currentHour);
 
 if (blockTime < currentHour) {
-  $(this).addClass("past");
   $(this).removeClass("future");
   $(this).removeClass("present");
+  $(this).addClass("past");
 }
 else if (blockTime === currentHour) {
   $(this).removeClass("past");
-  $(this).addClass("present");
   $(this).removeClass("future");
+  $(this).addClass("present");
 }
 else {
   $(this).removeClass("present");
   $(this).removeClass("past");
   $(this).addClass("future");
+
 }
   })
 }
